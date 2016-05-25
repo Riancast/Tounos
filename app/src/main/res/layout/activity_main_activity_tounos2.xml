@@ -1,0 +1,171 @@
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="1"
+    >
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1"
+        android:id="@+id/linearLayout2"
+        android:background="#0d8aff">
+        ​
+        <TextView
+            android:id="@+id/Scorebox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Puntuación: 0"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#cccccc"
+            android:textColorLink="#262625" />
+        ​
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/Scorebox"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#cccccc"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp" />
+        ​
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/corazon1"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/corazon"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="220dp" />
+        ​
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/corazon2"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/corazon"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="265dp" />
+        ​
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/corazon3"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/corazon"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="310dp" />
+        ​
+    </RelativeLayout>
+    ​
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:orientation="horizontal"
+        android:weightSum="1">
+        ​
+        <Button
+
+            android:layout_width="200dp"
+            android:layout_height="165dp"
+            android:id="@+id/Orange"
+            android:background="@drawable/customorange"
+            android:layout_weight="0.40" />
+        ​
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="165dp"
+            android:layout_gravity="start"
+            android:id="@+id/Purple"
+            android:background="@drawable/customviolet"
+            android:layout_weight="0.40" />
+    </LinearLayout>
+    ​
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        ​
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="165dp"
+            android:id="@+id/Red"
+            android:background="@drawable/customred"
+            android:layout_weight="0.40" />
+        ​
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="165dp"
+            android:layout_gravity="start"
+            android:id="@+id/Green"
+            android:background="@drawable/customgreen"
+            android:layout_weight="0.40" />
+        ​
+    </LinearLayout>
+    ​
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        ​
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="165dp"
+            android:layout_weight="0.40"
+            android:id="@+id/Yellow"
+            android:background="@drawable/customyellow"
+            android:layout_marginBottom="5dp" />
+        ​
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="165dp"
+            android:layout_gravity="start"
+            android:layout_weight="0.40"
+            android:id="@+id/Blue"
+            android:background="@drawable/customblue"
+            android:layout_marginBottom="5dp" />
+    </LinearLayout>
+    ​
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="58dp"
+        android:id="@+id/linearLayout"
+        android:weightSum="1"
+        android:background="#0d8aff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        ​
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/atras"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/arrow" />
+        ​
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/musica"
+            android:layout_marginLeft="250dp"
+            android:textOff=""
+            android:textOn=""
+            android:checked="false"
+            android:background="@drawable/check" />
+        ​
+    </LinearLayout>
+</GridLayout>

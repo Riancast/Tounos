@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2a2a2a"
+    android:weightSum="1">
+    ​
+    <ImageView
+        android:layout_width="275dp"
+        android:layout_height="179dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/tounos"
+        android:layout_marginTop="20dp" />
+    ​
+    <Button
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_start"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/jugar" />
+    ​
+    <Button
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_options"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/opciones" />
+    ​
+    <Button
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_exit"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/salir" />
+    ​
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+        ​
+        <ToggleButton
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/togg"
+            android:textOff=""
+            android:textOn=""
+            android:background="@drawable/check"
+            android:layout_marginLeft="10dp"
+            android:checked="false" />
+        ​
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/btn_help"
+            android:layout_marginLeft="270dp"
+            android:background="@drawable/ic_help_white_24dp" />
+    </LinearLayout>
+    ​
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tounos</string>
+    <string name="menu_settings">Ajustes</string>
+    <string name="welcome_msg">¡Empieza a jugar a Tounos!</string>
+    <string name="options">Opciones</string>
+    <string name="slow">Lento</string>
+    <string name="medium">Normal</string>
+    <string name="fast">Rápido</string>
+    <string name="speed">Velocidad</string>
+    <string name="startlvl">Empezar nivel</string>
+    <string-array name="InitialLevels">
+        <item >Uno</item>
+        <item >Dos</item>
+        <item >Tres</item>
+        <item >Cuatro</item>
+        <item >Cinco</item>
+        <item >Seis</item>
+        <item >Siete</item>
+        <item >Ocho</item>
+        <item >Nueve</item>
+        <item >Diez</item>
+    </string-array>
+    <string name="helptitle">Tounos es un juego de memoria de colores.</string>
+
+</resources>
